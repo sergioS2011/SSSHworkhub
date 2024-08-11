@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #DBE2EF;
+    padding-bottom: 60px; /* Espacio para el footer */
+}
+
+.header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 0 10%;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a {
+    text-decoration: none;
+    color: #787bd6;
+    font-size: 20px;
+}
+
+.header .nav-links a:hover {
+    color: #2a2d94;
+}
+
+.header .btn {
+    font-weight: 700;
+    color: #c3c5ff;
+    padding: 9px 25px;
+    background-color: #7479ff;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header .btn:hover {
+    background-color: #bec0ff;
+    color: #6f74ff;
+    transform: scale(1.1);
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.section {
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #112D4E;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #2a2d94;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 0.1rem; /* Aumenté el padding para que se vea mejor */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.section1, .section2, .section3, .section4, .section5 { background-color: #cfd1fc; }

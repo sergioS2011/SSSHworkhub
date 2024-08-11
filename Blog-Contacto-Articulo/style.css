@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #DBE2EF;
+}
+
+.header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav-links a {
+    text-decoration: none;
+    color: #787bd6;
+    font-size: 20px;
+}
+
+.header .nav-links a:hover {
+    color: #2a2d94;
+}
+
+.header .btn {
+    font-weight: 700;
+    color: #c3c5ff;
+    padding: 9px 25px;
+    background-color: #7479ff;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header .btn:hover {
+    background-color: #bec0ff;
+    color: #6f74ff;
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 4rem;
+    color: #050a47;
+    text-align: center;
+    background-image: url("../img/hamsterpro.png");
+}
+
+h1, p, img {
+    padding: 2%;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 0.1rem; /* Aumenté el padding para que se vea mejor */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
